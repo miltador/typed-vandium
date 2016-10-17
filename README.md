@@ -1,7 +1,7 @@
 # Typed Vandium  [![Build Status](https://travis-ci.org/miltador/typed-vandium.svg?branch=master)](https://travis-ci.org/miltador/typed-vandium)
 
 
-The type definition for [`vandium`](https://github.com/vandium-io/vandium-node.git)
+The type definition for [`vandium`](https://github.com/vandium-io/vandium-node)
 
 ## LICENSE
 
@@ -22,7 +22,7 @@ npm run publish
 ## Updating
 
 Update `typings.json/version` to match the source version you are typing against.
-e.g. if you are creating typings for `chai@3.5.0`, then:
+e.g. if you are creating typings for `vandium@3.5.0`, then:
 
 ```js
 // typings.json
