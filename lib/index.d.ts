@@ -1,4 +1,4 @@
-import * as joi from 'joi';
+import joi = require('joi');
 
 export = vandium;
 declare function vandium(userFunc: vandium.UserFuncType): any;
