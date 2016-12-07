@@ -49,7 +49,7 @@ declare namespace vandium {
     schema?: Object,
     ignore?: string[],
     allUnknown?: boolean
-  }
+  };
 
   type VandiumValidationPluginValidator = Object;
 
@@ -78,7 +78,7 @@ declare namespace vandium {
     xsrf?: boolean,
     xsrf_token_name?: string,
     xsrf_claim_name?: string
-  }
+  };
 
   interface VandiumJWTPlugin extends VandiumPlugin {
     constructor();
@@ -106,7 +106,7 @@ declare namespace vandium {
 
   export type VandiumScanEnginePluginConfig = {
     mode?: VandiumScanEnginePluginMode
-  }
+  };
 
   interface VandiumScanEnginePlugin {
     constructor(name: string);
@@ -121,7 +121,7 @@ declare namespace vandium {
   export type VandiumProtectPluginConfig = {
     mode?: VandiumScanEnginePluginMode,
     sql?: VandiumScanEnginePluginConfig
-  }
+  };
 
   interface VandiumProtectPlugin extends VandiumPlugin {
     constructor(state: VandiumProtectPluginState);
@@ -141,7 +141,7 @@ declare namespace vandium {
     validation?: VandiumValidationPluginConfig,
     jwt?: VandiumJWTPluginConfig,
     protect?: VandiumProtectPluginConfig
-  }
+  };
 
   interface Vandium {
     constructor(config?: VandiumConfig);
