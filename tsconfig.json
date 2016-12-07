@@ -2,7 +2,9 @@
   "compilerOptions": {
     "module": "commonjs",
     "moduleResolution": "node",
-    "outDir": "out"
+    "outDir": "out",
+    "noUnusedParameters": true,
+    "noUnusedLocals": true
   },
   "exclude": [
     "node_modules",
