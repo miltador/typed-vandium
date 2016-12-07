@@ -11,6 +11,7 @@ declare namespace vandium {
   function jwt(): VandiumJWTPlugin;
   function logUncaughtExceptions(enable: boolean): void;
   function stripErrors(enable: boolean): void;
+  function callbackWaitsForEmptyEventLoop(enable: boolean): void;
   function validation(schema: Object): VandiumValidationPlugin;
 
   interface VandiumPlugin {
@@ -48,7 +49,10 @@ declare namespace vandium {
   export type VandiumValidationPluginConfig = {
     schema?: Object,
     ignore?: string[],
-    allUnknown?: boolean
+    allUnknown?: boolean,
+    lambdaProxy?: boolean | {
+      headers?: { [key: string]: string }
+    }
   };
 
   type VandiumValidationPluginValidator = Object;
@@ -135,6 +139,7 @@ declare namespace vandium {
   type VandiumConfig = {
     env?: { [key: string]: string },
     stripErrors?: boolean,
+    callbackWaitsForEmptyEventLoop?: boolean,
     logUncaughtExceptions?: boolean,
     stringifyErrors?: boolean,
 
