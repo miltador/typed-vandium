@@ -8,5 +8,12 @@ notifications:
 node_js:
   - "stable"
 
+sudo: false
+
+cache:
+  yarn: true
+  directories:
+    - node_modules
+
 script:
-  - npm run lint+build+test
+  - yarn run lint+build+test
