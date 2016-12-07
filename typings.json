@@ -1,0 +1,6 @@
+{
+  "name": "vandium",
+  "main": "lib/index.d.ts",
+  "homepage": "https://github.com/vandium-io/vandium-node#readme",
+  "version": "3.2.0"
+}
