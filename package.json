@@ -26,6 +26,6 @@
     "vandium": "3.3.0"
   },
   "dependencies": {
-    "@types/joi": "^9.0.33"
+    "@types/joi": "^10.0.0"
   }
 }
