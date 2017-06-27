@@ -21,7 +21,7 @@
     "ts-node": "^1.7.0",
     "tslint": "^4.0.2",
     "tslint-config-typings": "^0.3.1",
-    "typescript": "^2.0.10",
+    "typescript": "2.4.0",
     "typings": "^2.0.0",
     "vandium": "3.3.0"
   },
