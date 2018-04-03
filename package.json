@@ -23,7 +23,7 @@
     "tslint-config-typings": "^0.3.1",
     "typescript": "^2.0.10",
     "typings": "^2.0.0",
-    "vandium": "3.3.0"
+    "vandium": "4.8.0"
   },
   "dependencies": {
     "@types/joi": "^10.0.0"
