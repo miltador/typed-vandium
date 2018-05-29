@@ -17,7 +17,7 @@
     "blue-tape": "^1.0.0",
     "joi": "^10.0.5",
     "onchange": "^3.2.0",
-    "tap-spec": "^4.1.1",
+    "tap-spec": "4.1.1",
     "ts-node": "^1.7.0",
     "tslint": "^4.0.2",
     "tslint-config-typings": "^0.3.1",
